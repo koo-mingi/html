@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" name="" method="POST">
+      <div>
+        <fieldset>
+          <legend>필수 사항</legend>
+          <p>
+            <label for="name">이름</label>
+            <input type="text" name="name" id="name" required />
+          </p>
+          <p>
+            <label for="mail">이메일</label>
+            <input type="text" name="mail" id="mail" required />
+          </p>
+          <p>
+            <label for="password">비밀번호</label>
+            <input type="password" name="password" id="password" required />
+          </p>
+        </fieldset>
+      </div>
+      <div>
+        <fieldset>
+          <legend>부가 입력 사항</legend>
+          <p>
+            <label for="birth">생년월일</label>
+            <input type="date" name="birth" id="birth" />
+          </p>
+          <div>
+            <label for="address">거주지를 선택해 주세요</label>
+            <div>
+              <select name="" id="">
+                <option value="서울시">서울시</option>
+                <option value="경기도">경기도</option>
+                <option value="대구시">대구시</option>
+                <option value="부산시">부산시</option>
+                <option value="광주시">광주시</option>
+              </select>
+            </div>
+          </div>
+          <p>
+            <label for="book">취미</label>
+            <input type="radio" name="hobby" id="book" />독서
+            <input type="radio" name="hobby" id="travel" />여행
+            <input type="radio" name="hobby" id="movie" />영화감상
+          </p>
+          <p>
+            <label for="gender_m">성별</label>
+            <input type="radio" name="gender" id="gender_m" />남성
+            <input type="radio" name="gender" id="gender_f" />여성
+          </p>
+          <p>
+            <label for="photo">사진을 등록해 주세요</label>
+            <input type="file" name="photo" id="photo" />
+          </p>
+          <div>
+            <label for="visit">방문 경로를 말씀해 주세요</label>
+            <div>
+              <textarea name="" id="" cols="30" rows="10"> </textarea>
+            </div>
+          </div>
+        </fieldset>
+      </div>
+    </form>
+  </body>
+</html>
